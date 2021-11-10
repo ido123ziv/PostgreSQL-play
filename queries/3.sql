@@ -1,3 +1,4 @@
+-- get all winning teams
 SET search_path TO "MMN11", public;
 SELECT nickname as "Winning Team", gdate, htid
 FROM "MMN11".team as t, "MMN11".game as g
