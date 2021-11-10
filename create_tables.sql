@@ -1,6 +1,6 @@
 -- Database: postgres
 --creating 5 basic tables team, player, coach, game, points:
-
+SET search_path TO "MMN11", public;
 CREATE TABLE IF NOT EXISTS "MMN11".team(
 	tid int,
 	nickname varchar(20),
