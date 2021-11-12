@@ -1,5 +1,4 @@
 -- find for each team the best player 
-SET search_path TO "MMN11", public;
 SELECT player.tid,player.pname,SUM(points.pscore) as "Score"
 FROM player,points
 WHERE player.pid = points.pid 

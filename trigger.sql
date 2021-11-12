@@ -1,5 +1,3 @@
-SET search_path TO "MMN11", public;
-
 CREATE TRIGGER T1
 BEFORE INSERT ON points
 FOR EACH ROW 
